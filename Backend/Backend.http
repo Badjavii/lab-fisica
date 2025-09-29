@@ -1,0 +1,8 @@
+@Backend_HostAddress = http://localhost:5106
+
+POST {{Backend_HostAddress}}/api/error
+Content-Type: application/json
+
+{
+    "datos": [10.5, 11, 10.8, 10.1, 10, 10.6, 10.5, 10.9, 13, 10.2]
+}
